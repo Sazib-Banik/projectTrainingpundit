@@ -45,22 +45,34 @@
 /* profile part second start */
 #profile-part-hero {
   background-color: #fbfdf6;
-  padding: 20px 0 40px 0;
+}
+#profile-part-hero .instructor-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#profile-part-hero .student {
+  margin-bottom: 10px;
 }
 #profile-part-hero .student p {
-  font-weight: bold;
   color: #6b6b6b;
 }
 #profile-part-hero .student span {
-  font-size: xx-large;
+  color: #6b6b6b;
+  font-weight: 700;
 }
-
-#profile-part-hero span {
+#profile-part-hero h2 {
+  margin-bottom: 5px;
+}
+#profile-part-hero h4 {
+  margin-bottom: 15px;
+}
+/* #profile-part-hero span {
   padding: 0 10px 0 7px;
 }
 #profile-part-hero .following {
   padding-left: 20px;
-}
+} */
 #profile-part {
   margin: 0 auto;
   transition: 0.4s;
@@ -69,8 +81,11 @@
   transform: scale(1.05);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+#profile-part-hero #link {
+  text-align: center;
+  display: inline-block;
+}
 #profile-part-hero .link li {
-  margin-left: 60px;
   display: block;
   margin-bottom: 7px;
   width: 180px;
