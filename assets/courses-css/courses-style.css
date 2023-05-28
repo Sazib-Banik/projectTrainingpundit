@@ -867,8 +867,9 @@ nav form button.btn:hover {
 .sticky {
   position: -webkit-sticky;
   position: sticky;
-  top: 10px;
+  top: 5px;
   width: 360px;
+  padding: 5px 5px;
 }
 
 .pricing-card{
@@ -882,6 +883,7 @@ nav form button.btn:hover {
   overflow: hidden;
   color: #2d2d2d;
   transition: .2s linear;
+  border-top: 30px solid #bedefc;
   
 }
 
