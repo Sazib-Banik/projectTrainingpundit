@@ -264,58 +264,23 @@
 }
 /* ===== top-instructor end ===== */
 /* ===== featured start ===== */
-
-.featured img {
-  border-radius: 100px 100px;
-  overflow: hidden;
-}
-.featured img:hover {
-  transform: scale(1.02);
-  box-shadow: black;
-}
-
 .featured .single-course {
-  border: 1px solid var(--primary-bgcolor);
-  padding: 20px;
-  margin-top: 35px;
-  min-height: 362px;
-  transition: 0.4s;
-}
-
-.featured .single-course:hover {
-  box-shadow: rgba(230, 28, 14, 0.35) 0px 5px 15px;
-  background-color: rgb(222, 235, 247);
+  padding: 10px;
+  border: none;
+  border-radius: 0;
+  margin-top: 25px;
 }
 .featured .course-details {
-  padding: 10px 12px;
+  padding: 0;
 }
-
 .featured .course-details h3 {
-  text-transform: capitalize;
-  font-size: 20px;
-  margin-bottom: 5px;
+  font-size: 21px;
+  padding-top: 5px;
 }
-.featured .course-details {
-  text-transform: capitalize;
-  font-weight: 600;
-  color: #000000;
-  margin-bottom: 5px;
+.featured .course-details h3 span {
+  font-size: 22px;
 }
-
-.featured .course-details i {
-  color: #ffc700;
-}
-.featured .offer {
-  text-decoration: line-through;
-  color: var(--secondary-color);
-  margin-left: 7px;
-  margin-bottom: 5px;
-}
-.featured .course-btn:hover {
-  background-color: var(--secondary-bgcolor);
-  border: 1px solid var(--primary-bgcolor);
-}
-.featured .course-btn-group {
-  margin-top: 5px;
+.featured .course-details span {
+  font-size: 14px;
 }
 /* ===== featured end ===== */
