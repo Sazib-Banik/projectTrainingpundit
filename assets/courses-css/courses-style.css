@@ -1105,7 +1105,7 @@ nav form button.btn:hover {
 }
 /* ===== review_part end ===== */
 /* ===== All instructor_part start ===== */
-.accordion-collapse i{
+.instructor-reating i{
   color: var(--secondary-bgcolor);
 }
 
