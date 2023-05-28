@@ -615,7 +615,7 @@ nav form button.btn:hover {
 }
 
 .featured .course-details i{
-  color: #ffc700;
+  color: var(--secondary-bgcolor);
 }
 .featured .offer {
   text-decoration: line-through;
@@ -651,7 +651,6 @@ nav form button.btn:hover {
   overflow: hidden;
 
 }
-
 .course-details {
   padding: 20px;
 }
@@ -677,6 +676,8 @@ nav form button.btn:hover {
 .popular-topic .swiper-slide{
   height: 300px;
 }
+
+
 /* ===== popular-topic start ===== */
 /* ===== carosel-topic start ===== */
 .owl-next,
