@@ -438,7 +438,7 @@ nav form button.btn:hover {
   cursor: pointer;
 }
 .range::-moz-range-thumb {
-   -webkit-appearance : none;
+   -webkit-appearance: none;
   background-color: #0070BF;
   height: 15px;
   width: 15px;
@@ -682,12 +682,9 @@ nav form button.btn:hover {
 
 /* Add a transparency effect for thumnbail images */
 .demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
+ 
+  padding: 5px;
+  height:50px;
 }
 
 .mySlides .course-details {
