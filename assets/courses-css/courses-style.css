@@ -233,6 +233,7 @@ nav form button.btn:hover {
   background-color: #0086dc;
   position: relative;
   z-index: 1;
+  height: 150px;
 }
 #particles-js {
   position: absolute;
@@ -242,89 +243,17 @@ nav form button.btn:hover {
   right: 0;
   z-index: -1;
 }
-.stat-box {
+#statistics_part {
   cursor: pointer;
   padding: 30px 40px;
-  border-radius: 15px;
-  box-shadow: rgba(252, 252, 252, 0.35) 0px 5px 10px;
   transition: 0.4s;
 }
-.stat-box:hover {
+#statistics_part:hover {
   transform: scale(1.05);
 }
-.stat-box .number {
-  font-size: 36px;
-  font-weight: 600;
-  font-family: "Playfair Display", serif;
-  margin-top: -20px;
-  color: #ffffff;
-}
-.stat-box h3 {
-  font-size: 20px;
-  font-weight: 500;
-  font-family: "Roboto", sans-serif;
-  text-transform: capitalize;
-}
+
 /* ===== statistics_part end ===== */
-/* ===== setyourgoal-part_part start ===== */
-.goal-item {
-  padding: 30px 40px;
-  border: 1px solid var(--primary-bgcolor);
-  border-radius: 15px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 35px;
-  min-height: 205px;
-  transition: 0.4s;
-}
-.goal-item .goal-item-img {
-  width: 60px;
-  margin-bottom: 15px;
-}
-.goal-item:hover {
-  background-color: var(--primary-bgcolor);
-  color: var(--primary-color);
-}
-/* ===== setyourgoal-part_part end ===== */
 
-/* ===== free-seminar_part start ===== */
-#free-seminar-part {
-  background-color: #fffbee;
-}
-.seminar-left-sec h3 {
-  font-size: 48px;
-  margin-bottom: 7px;
-}
-.seminar-left-sec p {
-  font-size: 18px;
-  color: var(--secondary-color);
-  margin-bottom: 13px;
-}
-.seminar-right-sec {
-  position: relative;
-}
-.seminar-right-sec .play-btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 60px;
-  color: var(--primary-bgcolor);
-}
-/* ===== free-seminar_part end ===== */
-/* ===== top-category_part start ===== */
-
-/* ===== top-category_part end ===== */
-
-
-/* ===== top-instructor_part end ===== */
-
-/* ===== partners_part start ===== */
-#partners-part img {
-  height: 60px !important;
-}
-/* ===== partners_part end ===== */
 /* ===== _part start ===== */
 /* ===== _part end ===== */
 /* ===== footer_part start ===== */
@@ -444,7 +373,7 @@ nav form button.btn:hover {
   margin-bottom: 10px;
 }
 /* ===== office-part_part end ===== */
-/* *********************************************************** */
+/* ***************************************************************** */
 
 /* ===== courses page start ===== */
 /* ===== courses-range-part start ===== */
@@ -509,7 +438,7 @@ nav form button.btn:hover {
   cursor: pointer;
 }
 .range::-moz-range-thumb {
-  -webkit-appearance: none;
+   -webkit-appearance : none;
   background-color: #0070BF;
   height: 15px;
   width: 15px;
@@ -529,8 +458,6 @@ nav form button.btn:hover {
   min-height: 362px;
   transition: 0.4s;
 }
-
-
 .single-course:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -673,8 +600,103 @@ nav form button.btn:hover {
 
 /* ===== courses-part end ===== */
 /* ===== popular-topic start ===== */
-.popular-topic .swiper-slide{
-  height: 300px;
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 10px;
+  margin-top: -50px;
+  color: rgb(252, 251, 251);
+  background-color: #bdbbbb;
+  opacity: 70%;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 12px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  color: white;
+}
+
+.popular-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.mySlides .course-details {
+  text-align: center;
+  
+}
+.mySlides .single-course img{
+  height: 120px;
+  width: 100%;
 }
 
 
