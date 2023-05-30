@@ -880,8 +880,9 @@ nav form button.btn:hover {
   color: var(--secondary-color);
 }
 /* ===== review_part end ===== */
-/* ===== related trainer-part start ===== */
+/* -- ===== trainer carosel-part start ===== */
 
+/* -- ===== trainer carosel-part start ===== */
 /* ===== -stricky card-part start ===== */
 .pricing-stricky{
   display: flex;
