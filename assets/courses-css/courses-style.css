@@ -789,7 +789,7 @@ nav form button.btn:hover {
 
 /* ===== courses details-part start ===== */
 /* ===== courses-heade-start ===== */
-.hero{
+#courses-heade{
   background-color: rgb(154, 176, 247);
   padding: 20px 15px;
 }
