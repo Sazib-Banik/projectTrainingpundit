@@ -221,6 +221,7 @@
 }
 
 /* ================================================================================= */
+                         /* course-details page */
 /* ===== x-large devices (large desktops, less than 1400px)===== */
 @media (max-width: 1400px) {
 }
@@ -286,4 +287,43 @@
   }
 
 }
+/* ===== x-small devices (portrait phones, less than 576px) ===== */
+@media (max-width: 575px) {
 
+}
+
+/* ============================================================================ */
+                          /* trainer page */
+/* ===== x-large devices (large desktops, less than 1400px)===== */
+@media (max-width: 1400px) {
+}
+/* ===== large devices (desktops, less than 1200px) ===== */
+@media (max-width: 1199px) {
+  /* instractor-carosul_part */
+  .seminar-video .play-btn {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: var(--primary-bgcolor);
+  }
+
+  .card p{
+    font-size: 15px;
+
+  }
+  /* ===== medium devices (tablets, less than 992px) ===== */
+
+@media (max-width: 991px) {
+
+}
+
+/* ===== small devices (landscape phones, less than 768px) ===== */
+@media (max-width: 767px) {
+  .nav-link{
+    font-size: 12px;
+  }
+}
+
+}

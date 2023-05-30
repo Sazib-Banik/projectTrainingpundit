@@ -1370,61 +1370,7 @@
   <script src="assets/js/jquery.min.js"></script>
   <!-- ===== bootstrap js link ===== -->
   <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <!-- ===== isotop link ===== -->
-  <script src="assets/js/isotope.pkgd.min.js"></script>
-  <script>
-    // external js: isotope.pkgd.js
-
-// init Isotope
-var iso = new Isotope( '.grid', {
-  itemSelector: '.element-item',
-  layoutMode: 'fitRows'
-});
-
-// filter functions
-var filterFns = {
-  // show if number is greater than 50
-  numberGreaterThan50: function( itemElem ) {
-    var number = itemElem.querySelector('.number').textContent;
-    return parseInt( number, 10 ) > 50;
-  },
-  // show if name ends with -ium
-  ium: function( itemElem ) {
-    var name = itemElem.querySelector('.name').textContent;
-    return name.match( /ium$/ );
-  }
-};
-
-// bind filter button click
-var filtersElem = document.querySelector('.filters-button-group');
-filtersElem.addEventListener( 'click', function( event ) {
-  // only work with buttons
-  if ( !matchesSelector( event.target, 'button' ) ) {
-    return;
-  }
-  var filterValue = event.target.getAttribute('data-filter');
-  // use matching filter function
-  filterValue = filterFns[ filterValue ] || filterValue;
-  iso.arrange({ filter: filterValue });
-});
-
-// change is-checked class on buttons
-var buttonGroups = document.querySelectorAll('.button-group');
-for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
-  var buttonGroup = buttonGroups[i];
-  radioButtonGroup( buttonGroup );
-}
-
-function radioButtonGroup( buttonGroup ) {
-  buttonGroup.addEventListener( 'click', function( event ) {
-    // only work with buttons
-    if ( !matchesSelector( event.target, 'button' ) ) {
-      return;
-    }
-    buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
-    event.target.classList.add('is-checked');
-  });
-}
+  
 
 </script>
   <!-- ===== swiper js link ===== -->
@@ -1442,30 +1388,30 @@ function radioButtonGroup( buttonGroup ) {
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <script>
-    var owl = $('.courses-carousel');
+    var owl = $('.owl-theme');
     owl.owlCarousel({
       items: 4,
       loop: true,
       margin: 10,
       autoplay: true,
       autoplayTimeout: 1000,
-      autoplayHoverPause: true
+      autoplayHoverPause: true,
+      responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 4,
+          },
+         
+        },
     });
   </script>
   
-   <script>
-    var owl = $('.featured-carousel');
-    owl.owlCarousel({
-      items: 4,
-      loop: true,
-      dots:false,
-      nav:true,
-      margin: 10,
-      autoplay: false,
-      autoplayTimeout: 0,
-      autoplayHoverPause: false
-    });
-  </script>
+   
 </body>
 
 </html>
