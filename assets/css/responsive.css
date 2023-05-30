@@ -271,6 +271,20 @@
 }
 /* ===== x-small devices (portrait phones, less than 576px) ===== */
 @media (max-width: 575px) {
+  /* main part start */
+  .banner-carousel .item {
+    min-height: 400px;
+  }
+  .banner-carousel .item img {
+    height: 100% !important;
+  }
+  .overlay h1 {
+    font-size: 25px;
+  }
+  .overlay p {
+    padding: 0px 35px;
+  }
+  /* set your goal part start */
   .your-goal-carousel .item {
     padding: 15px;
   }

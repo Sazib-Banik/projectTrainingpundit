@@ -231,8 +231,9 @@ nav form button.btn:hover {
 }
 /* ===== navbar_part end ===== */
 /* ===== main_part start ===== */
-#main_part .bxslider {
+#main_part .banner-carousel {
   position: relative;
+  min-height: 400px;
 }
 .overlay {
   position: absolute;
