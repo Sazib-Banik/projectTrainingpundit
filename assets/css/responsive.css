@@ -313,4 +313,8 @@
   .address-part address {
     margin-bottom: 0;
   }
+  /* contact page css start */
+  .working-form-part .col-md-7 {
+    margin-top: 25px;
+  }
 }
