@@ -316,6 +316,9 @@ nav form button.btn:hover {
 }
 /* ===== statistics_part end ===== */
 /* ===== setyourgoal-part_part start ===== */
+.your-goal-carousel .item {
+  padding: 0 15px;
+}
 .goal-item {
   /* padding: 30px 40px; */
   border: 1px solid var(--primary-bgcolor);

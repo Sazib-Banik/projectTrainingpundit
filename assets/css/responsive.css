@@ -207,6 +207,7 @@
     bottom: 10px !important;
   }
   /* set your goal part start */
+
   .goal-item-content h4 {
     font-size: 20px;
   }
@@ -270,4 +271,32 @@
 }
 /* ===== x-small devices (portrait phones, less than 576px) ===== */
 @media (max-width: 575px) {
+  .your-goal-carousel .item {
+    padding: 15px;
+  }
+  .owl-prev {
+    left: 27px;
+  }
+  .owl-next {
+    right: 27px;
+  }
+  /* our-top course part start */
+  #top-course-part .owl-next,
+  #top-course-part .owl-prev {
+    bottom: 40%;
+  }
+  .course-details {
+    text-align: center;
+  }
+  /* newsletter part start */
+  .newsletter_form input {
+    width: 210px;
+  }
+  /* footer part start */
+  #footer_part .footer-logo p {
+    margin-top: 0px;
+  }
+  .address-part address {
+    margin-bottom: 0;
+  }
 }
