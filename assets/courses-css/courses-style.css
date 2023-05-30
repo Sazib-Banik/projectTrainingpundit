@@ -438,7 +438,7 @@ nav form button.btn:hover {
   cursor: pointer;
 }
 .range::-moz-range-thumb {
-   -webkit-appearance: none;
+   --webkit-appearance: none;
   background-color: #0070BF;
   height: 15px;
   width: 15px;
@@ -798,12 +798,20 @@ nav form button.btn:hover {
   color: var(--secondary-bgcolor);
 }
 
-.seminar-right-sec{
-  top:170px;
-  height: 200px;
-  right: -10PX;
- 
-}
+  .seminar-sec {
+    position: relative;
+    top:140px;
+    height: 200px;
+    right: -10PX;
+  }
+  .seminar-sec .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: var(--primary-bgcolor);
+  }
 .tab-pane{
   border: 1px solid var(--primary-bgcolor);
   border-radius: 15px;
@@ -842,7 +850,7 @@ nav form button.btn:hover {
   color: var(--primary-color);
 }
 /* ===== related-courses-part end ===== */
-/* ===== success-story_part start ===== */
+/* ===== review_part start ===== */
 #success-part {
   clear: both;
 }
@@ -871,10 +879,10 @@ nav form button.btn:hover {
 .student-review p {
   color: var(--secondary-color);
 }
-/* ===== success-story_part end ===== */
+/* ===== review_part end ===== */
 /* ===== related trainer-part start ===== */
 
-/* ===== -trainer-part start ===== */
+/* ===== -stricky card-part start ===== */
 .pricing-stricky{
   display: flex;
   flex-wrap: wrap;
@@ -983,7 +991,7 @@ nav form button.btn:hover {
     flex: 50%;
   }
 }
-/* ===== -trainer-part end ===== */
+/* ===== -stricky-part end ===== */
 /* ===== courses details page end ===== */
 
 /* ===================================================================== */
