@@ -316,6 +316,9 @@ nav form button.btn:hover {
 }
 /* ===== statistics_part end ===== */
 /* ===== setyourgoal-part_part start ===== */
+.your-goal-carousel .item {
+  padding: 0 15px;
+}
 .goal-item {
   /* padding: 30px 40px; */
   border: 1px solid var(--primary-bgcolor);
@@ -338,8 +341,8 @@ nav form button.btn:hover {
 }
 /* ===== setyourgoal-part_part end ===== */
 /* ===== top-course_part start ===== */
-.top-course-carousel > div {
-  padding: 20px 0;
+.top-course-carousel .item {
+  padding: 10px;
 }
 .single-course {
   border: 1px solid var(--primary-bgcolor);
@@ -805,7 +808,6 @@ nav form button.btn:hover {
 #partners-part .bx-wrapper img {
   height: 80px;
 }
-
 
 /* ===== newsletter-part end ===== */
 /* ===== footer_part start ===== */
