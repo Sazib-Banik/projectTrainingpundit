@@ -202,9 +202,11 @@
     margin-left: 0px;
   }
   /* main part start */
-  .bx-wrapper .bx-pager,
-  .bx-wrapper .bx-controls-auto {
-    bottom: 10px !important;
+  .banner-carousel .item {
+    min-height: 400px;
+  }
+  .banner-carousel .item img {
+    height: 100% !important;
   }
   /* set your goal part start */
 
@@ -272,12 +274,6 @@
 /* ===== x-small devices (portrait phones, less than 576px) ===== */
 @media (max-width: 575px) {
   /* main part start */
-  .banner-carousel .item {
-    min-height: 400px;
-  }
-  .banner-carousel .item img {
-    height: 100% !important;
-  }
   .overlay h1 {
     font-size: 25px;
   }
