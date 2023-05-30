@@ -164,7 +164,7 @@
   float: left;
 }
 .range::-webkit-slider-thumb {
-  -webkit-appearance: none;
+  --webkit-appearance: none;
   background-color: #0070bf;
   height: 20px;
   width: 20px;
@@ -172,7 +172,7 @@
   cursor: pointer;
 }
 .range::-moz-range-thumb {
-  -webkit-appearance: none;
+  --webkit-appearance: none;
   background-color: #0070bf;
   height: 15px;
   width: 15px;

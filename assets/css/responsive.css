@@ -180,6 +180,93 @@
 }
 /* ===== small devices (landscape phones, less than 768px) ===== */
 @media (max-width: 767px) {
+  /* common css start */
+  .section-heading {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  /* top-header part start */
+  .header_left {
+    text-align: center;
+  }
+  .header_right {
+    float: none !important;
+    text-align: center;
+    margin-top: 10px;
+  }
+  /* navbar part start */
+  nav .nav-item .nav-link {
+    margin-left: 0px;
+  }
+  nav form {
+    margin-left: 0px;
+  }
+  /* main part start */
+  .bx-wrapper .bx-pager,
+  .bx-wrapper .bx-controls-auto {
+    bottom: 10px !important;
+  }
+  /* set your goal part start */
+  .goal-item-content h4 {
+    font-size: 20px;
+  }
+  /* top-course part start */
+  #top-course-part .course-details h3 {
+    font-size: 17px;
+    height: 60px;
+  }
+  .course-btn-group {
+    text-align: center;
+  }
+  .course-btn {
+    margin-bottom: 5px;
+  }
+  /* free seminar part start */
+  .seminar-right-sec {
+    margin-top: 25px;
+  }
+  /* success part start */
+  .success-part-content {
+    margin-top: 25px;
+  }
+  /* top-instructor part start */
+  .instructor-box {
+    text-align: center;
+    padding: 15px 20px;
+  }
+  .instructor-box .instructor-box-content h5 {
+    font-size: 20px;
+  }
+  .instructor-box .instructor-box-content h6 {
+    font-size: 16px;
+  }
+  .instructor-box .instructor-box-content p {
+    font-size: 15px;
+  }
+  .instructor-box .instructor-box-content a {
+    font-size: 16px;
+  }
+  /* support part start */
+  .support-item-box {
+    padding: 10px 25px;
+  }
+  .support-item-box h3 {
+    height: 35px;
+  }
+  /* news & event part start */
+  .news-box-content h5 {
+    font-size: 20px;
+  }
+  .news-box-content p {
+    font-size: 16px;
+  }
+  .news-box-content a {
+    font-size: 15px;
+  }
+  /* newsletter form part start */
+  .newsletter_form {
+    margin-top: 15px;
+  }
 }
 /* ===== x-small devices (portrait phones, less than 576px) ===== */
 @media (max-width: 575px) {

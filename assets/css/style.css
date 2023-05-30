@@ -338,8 +338,8 @@ nav form button.btn:hover {
 }
 /* ===== setyourgoal-part_part end ===== */
 /* ===== top-course_part start ===== */
-.top-course-carousel > div {
-  padding: 20px 0;
+.top-course-carousel .item {
+  padding: 10px;
 }
 .single-course {
   border: 1px solid var(--primary-bgcolor);
@@ -805,7 +805,6 @@ nav form button.btn:hover {
 #partners-part .bx-wrapper img {
   height: 80px;
 }
-
 
 /* ===== newsletter-part end ===== */
 /* ===== footer_part start ===== */
