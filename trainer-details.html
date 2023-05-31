@@ -26,7 +26,7 @@
     <header id="header_part">
       <div class="container">
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-4">
             <div class="header_left">
               <span>
                 <a href="mailto:sazibbanik8770@gmail.com"
@@ -41,7 +41,7 @@
               >
             </div>
           </div>
-          <div class="col-md-7">
+          <div class="col-md-8">
             <div class="header_right float-end">
               <ul class="social-link">
                 <li>
@@ -64,7 +64,7 @@
                 <li class="header-btn">
                   <a href="#"><i class="fa-solid fa-user-plus"></i> Signup</a>
                 </li>
-                <li class="header-btn text-capitalize">
+                <li class="header-btn text-capitalize d-none d-lg-inline">
                   <a href="#">Join our free seminar</a>
                 </li>
               </ul>
@@ -174,21 +174,21 @@
                 <div class="row">
                   <h2>Rabbil Hasan Rupom</h2>
                   <h4>MERN Stack Developer</h4>
-                  <div class="col-md-6 student">
+                  <div class="col-6 col-sm-6 col-md-6 student">
                     <p>Total Student</p>
                     <span>1243</span>
                   </div>
-                  <div class="col-md-6 student">
+                  <div class="col-6 col-sm-6 col-md-6 student">
                     <p>Reviews</p>
                     <span>1243</span>
                   </div>
                   <div class="row mt-2">
-                    <div class="col-md-6">
+                    <div class="col-6 col-sm-6 col-md-6">
                       <i class="fa-solid fa-users"></i>
                       <span> follower</span>
                       <span class="following">(105)</span>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-6 col-sm-6 col-md-6">
                       <i class="fa-solid fa-users"></i>
                       <span> following</span>
                       <span class="following">(180)</span>
@@ -1324,6 +1324,23 @@
         autoplay: false,
         autoplayTimeout: 0,
         autoplayHoverPause: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          576: {
+            items: 1,
+          },
+          768: {
+            items: 1,
+          },
+          992: {
+            items: 3,
+          },
+          1000: {
+            items: 3,
+          },
+        },
       });
     </script>
 
@@ -1336,6 +1353,23 @@
         autoplay: true,
         autoplayTimeout: 1000,
         autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          576: {
+            items: 1,
+          },
+          768: {
+            items: 1,
+          },
+          992: {
+            items: 3,
+          },
+          1000: {
+            items: 3,
+          },
+        },
       });
     </script>
   </body>

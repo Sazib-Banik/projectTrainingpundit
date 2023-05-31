@@ -198,6 +198,12 @@
     text-align: center;
     margin-top: 10px;
   }
+  .header_right .social-link li {
+    display: none;
+  }
+  .header_right .social-link li.header-btn {
+    display: inline;
+  }
   /* navbar part start */
   nav .nav-item .nav-link {
     margin-left: 0px;
@@ -274,6 +280,14 @@
 /* ===== x-small devices (portrait phones, less than 576px) ===== */
 @media (max-width: 575px) {
   /* main part start */
+  .banner-carousel .item p,
+  .banner-carousel .item span {
+    text-align: center;
+  }
+  .banner-carousel .item span a {
+    margin-bottom: 7px;
+    margin-left: 0px !important;
+  }
   .overlay h1 {
     font-size: 25px;
     text-align: center !important;
@@ -303,8 +317,18 @@
   .footer_newsletter {
     padding: 60px 30px;
   }
+  .newsletter_form {
+    text-align: center;
+  }
+  .newsletter_form .theme-btn {
+    width: 100%;
+    margin-top: 7px;
+  }
+  .newsletter_content h2 {
+    font-size: 20px;
+  }
   .newsletter_form input {
-    width: 185px;
+    width: 225px;
   }
   /* footer part start */
   #footer_part .footer-logo p {
@@ -316,5 +340,9 @@
   /* contact page css start */
   .working-form-part .col-md-7 {
     margin-top: 25px;
+  }
+  /* trainer-details page css start */
+  #profile-part-hero h2 {
+    margin-top: 15px;
   }
 }
