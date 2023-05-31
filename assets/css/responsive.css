@@ -181,6 +181,83 @@
   #copyright-part p {
     font-size: 13px;
   }
+  /* =====courses page css start===== */
+  /* courses range css start */
+  .mim-max {
+    font-size: 15px;
+  }
+  .single-course col {
+    font-size: 10px;
+  }
+  .single-course .fa-solid {
+    font-size: 10px;
+  }
+  .single-course p {
+    font-size: 12px;
+  }
+
+  .single-course h3 {
+    font-size: 20px;
+  }
+  /* feature-part css start */
+  .course-btn {
+    padding: 3px;
+  }
+  .course-btn-group {
+    text-align: center;
+  }
+
+  /* popular-instructor css start */
+  .instructor-box .instructor-box-img img {
+    width: 100px;
+    height: 100px;
+  }
+  .instructor-box .instructor-box-content h5 {
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .instructor-box .instructor-box-content h6 {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .instructor-box .instructor-box-content p {
+    font-size: 12px;
+  }
+  .instructor-rateing p i {
+    margin-right: 0px;
+  }
+  .instructor-box .instructor-box-content a {
+    font-size: 13px;
+  }
+  /* courses details page start */
+  /* courses-head start */
+  #courses-heade h2{
+    font-size: 20px;
+  }
+  #courses-heade h5{
+    font-size: 15px;
+  }
+  #courses-heade p{
+    font-size: 12px;
+  }
+  .seminar-sec {
+    position: relative;
+    top:160px;
+    height: 150px;
+   width: 300px;
+  }
+  /* tag-part start */
+  .tag{
+    padding: 10px;
+  }
+  .btn{
+    font-size: 12px;
+  }
+  /* review-part start */
+  .success-part-content h5, p{
+    font-size: 12px;
+
+  }
 }
 /* ===== small devices (landscape phones, less than 768px) ===== */
 @media (max-width: 767px) {
@@ -276,6 +353,65 @@
   .news-box-content a {
     font-size: 15px;
   }
+  /* courses page css start */
+    /* courses range css start */
+    .mim-max {
+      font-size: 10px;
+    }
+    .range-chack h3{
+      font-size: 20px;
+    }
+    .form-check{
+      font-size: 12px;
+    }
+  
+    /* courses carosul start */
+    .courses h3{
+      font-size: 20px;
+    }
+    .course-details .row{
+      font-size: 8px;
+    }
+    .single-course .fa-solid{
+      font-size: 10px;
+    }
+    .single-course p{
+      font-size: 10px;
+    }
+   
+    .single-course h3{
+      font-size: 20px;
+    }
+    .single-course span{
+      font-size: 12px;
+    }
+    /* feature-part css start */
+   
+    .course-btn-group {
+      text-align: center;
+    }
+    /* courses details page start */
+     /* courses-head start */
+  #courses-heade h2{
+    font-size: 15px;
+  }
+  #courses-heade h5{
+    font-size: 12px;
+  }
+  #courses-heade p{
+    font-size: 10px;
+  }
+  .seminar-sec {
+    position: relative;
+    top:130px;
+    height: 150px;
+   width: 250px;
+  }
+  /* tag-part start */
+  
+  .btn{
+    font-size: 10px;
+  }
 }
 /* ===== x-small devices (portrait phones, less than 576px) ===== */
 @media (max-width: 575px) {
@@ -328,7 +464,7 @@
     font-size: 20px;
   }
   .newsletter_form input {
-    width: 225px;
+    width: 100%;
   }
   /* footer part start */
   #footer_part .footer-logo p {
@@ -344,5 +480,20 @@
   /* trainer-details page css start */
   #profile-part-hero h2 {
     margin-top: 15px;
+  }
+  /* courses page css start */
+    /* our-top course part start */
+ .featured-carousel .owl-next,
+ .featured-carousel .owl-prev {
+    bottom: 50%;
+  }
+  .owl-prev {
+    left: -15px;
+  }
+  .owl-next {
+    right: -15px;
+  }      
+  .course-details {
+    text-align: center;
   }
 }
